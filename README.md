@@ -2,6 +2,12 @@
 
 API for managing tasks (ToDo) built with ASP.NET Core.
 
+## Deploy
+
+You can access the deployed API and Swagger UI here:  
+[https://todoappapi-production-06e5.up.railway.app/swagger](https://todoappapi-production-06e5.up.railway.app/swagger)
+
+
 ## How to Run Locally
 
 ### Prerequisites
@@ -13,7 +19,7 @@ API for managing tasks (ToDo) built with ASP.NET Core.
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/lucasbonadio/ToDoAppAPI.git>
    cd ToDoApp.Api
    ```
 

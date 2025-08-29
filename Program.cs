@@ -25,17 +25,10 @@ builder.Services.AddSwaggerGen(options =>
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseHttpsRedirection();
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
+app.UseSwagger();
+app.UseSwaggerUI();
+app.UseHttpsRedirection();
 app.UseCors("AllowAnyOrigin");
-
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();
